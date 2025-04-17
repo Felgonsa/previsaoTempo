@@ -1,6 +1,4 @@
-Aqui está um exemplo de `README.md` para o seu projeto de clima com histórico de buscas e previsão dos próximos dias:
 
----
 
 # 🌤️ App de Previsão do Tempo
 
@@ -33,7 +31,6 @@ Este projeto é um aplicativo web que utiliza a API da OpenWeatherMap para exibi
 
 ## 🔑 Pré-requisitos
 
-- Navegador moderno
 - Uma chave de API gratuita da OpenWeatherMap
 
 Você pode obter a chave gratuitamente criando uma conta em: [https://home.openweathermap.org/users/sign_up](https://home.openweathermap.org/users/sign_up)
@@ -78,5 +75,3 @@ const chave = "SUA_CHAVE_AQUI";
 Este projeto é livre para fins educacionais e pessoais.
 
 ---
-
-Se quiser, posso gerar esse `README.md` como arquivo direto pra você baixar ou já inserir no seu projeto. Deseja isso?

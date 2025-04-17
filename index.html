@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clima Fácil</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+
+</head>
+
+
+<body>
+    <div id="container">
+        <div id="historico">
+            <h3>Histórico de Buscas</h3>
+            <button onclick="limparHistorico()" >clear</button>
+            <ul id="listaHistorico"></ul>
+        </div>
+    
+        <div id="clima">
+            <h1>Buscar Cidade</h1>
+            <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+            <button onclick="buscarClima()">Buscar</button>
+            <div id="resultado"></div>
+            <div id="previsao"></div>
+        </div>
+    </div>
+
+    <script src="./script/index.js"></script>
+
+</body>
+
+
+
+
+</html>

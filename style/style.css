@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+    max-height: 90vh;
+}
+
+#pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* HISTÓRICO FIXO NA ESQUERDA */
+#historico {
+    width: 300px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#historico h3 {
+    padding: 5px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+#listaHistorico {
+    list-style: none;
+    padding: 0;
+    max-height: 60vh;
+    overflow-y:auto;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(70, 70, 70);
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+}
+
+#listaHistorico li {
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+}
+
+#cidadeHistorico{
+    cursor: pointer;
+    transition: background-color 1s;
+}
+#cidadeHistorico:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* BLOCO CLIMA CENTRALIZADO */
+#clima {
+    background-color: rgb(43, 43, 43);
+    width: 500px;    
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+
+
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #38853a;
+}
+
+#resultado, #previsao {
+    margin-top: 30px;
+}
